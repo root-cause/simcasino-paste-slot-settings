@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepSlotGame", "KeepSlotGame\KeepSlotGame.csproj", "{252352A7-9B29-4436-9DF8-82B9255752BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252352A7-9B29-4436-9DF8-82B9255752BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252352A7-9B29-4436-9DF8-82B9255752BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252352A7-9B29-4436-9DF8-82B9255752BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252352A7-9B29-4436-9DF8-82B9255752BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF2BE6E9-EADC-4DEA-961F-952726096C53}
+	EndGlobalSection
+EndGlobal
