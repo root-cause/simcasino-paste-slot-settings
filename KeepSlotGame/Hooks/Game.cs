@@ -10,7 +10,16 @@ namespace KeepSlotGame
         [HarmonyPatch(typeof(MultiSelectOptions), MethodType.Constructor)]
         public static void AddButtonToMultiSelectOptions(List<IMultiSelectOption> ___Options)
         {
-            ___Options.Insert(8, new PasteSlotMachineSettingsKeepGameOption());
+            int index = ___Options.FindIndex(option => option.Name == "PasteSlotMachineSettingsOption");
+
+            if (index == -1)
+            {
+                ___Options.Add(new PasteSlotMachineSettingsKeepGameOption());
+            }
+            else
+            {
+                ___Options.Insert(index + 1, new PasteSlotMachineSettingsKeepGameOption());
+            }
         }
 
         [HarmonyPostfix]
